@@ -1,0 +1,12 @@
+/Users/leurok/Study/CourseWork/RayTracing/RayTracing/bin/Debug/net6.0/RayTracing.deps.json
+/Users/leurok/Study/CourseWork/RayTracing/RayTracing/bin/Debug/net6.0/RayTracing.dll
+/Users/leurok/Study/CourseWork/RayTracing/RayTracing/bin/Debug/net6.0/RayTracing.pdb
+/Users/leurok/Study/CourseWork/RayTracing/RayTracing/obj/Debug/net6.0/RayTracing.csproj.AssemblyReference.cache
+/Users/leurok/Study/CourseWork/RayTracing/RayTracing/obj/Debug/net6.0/RayTracing.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leurok/Study/CourseWork/RayTracing/RayTracing/obj/Debug/net6.0/RayTracing.AssemblyInfoInputs.cache
+/Users/leurok/Study/CourseWork/RayTracing/RayTracing/obj/Debug/net6.0/RayTracing.AssemblyInfo.cs
+/Users/leurok/Study/CourseWork/RayTracing/RayTracing/obj/Debug/net6.0/RayTracing.csproj.CoreCompileInputs.cache
+/Users/leurok/Study/CourseWork/RayTracing/RayTracing/obj/Debug/net6.0/RayTracing.dll
+/Users/leurok/Study/CourseWork/RayTracing/RayTracing/obj/Debug/net6.0/refint/RayTracing.dll
+/Users/leurok/Study/CourseWork/RayTracing/RayTracing/obj/Debug/net6.0/RayTracing.pdb
+/Users/leurok/Study/CourseWork/RayTracing/RayTracing/obj/Debug/net6.0/ref/RayTracing.dll

@@ -1,0 +1,66 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:uc="using:RayTracingUI"
+        MinWidth="500" Width="1050" MinHeight="290" Height="600"
+        x:Class="RayTracingUI.MainWindow"
+        Title="Панель управления">
+    <Grid RowDefinitions="Auto, *">
+        <Grid Grid.Row="0"
+              ColumnDefinitions="Auto, *">
+            <Canvas Name="canvas"
+                    Margin="5"
+                    Grid.Column="0"
+                    Width="480"
+                    Height="270"
+                    VerticalAlignment="Top"/>
+            <uc:CameraPanel Name="camera"
+                            Margin="5"
+                            Grid.Column="1"
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Stretch"/>
+            <TextBox Name="renderWidth"
+                     Grid.Row="0"
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Bottom"
+                     Text="1920"
+                     Margin="10, 1, 1, 5"
+                     Width="60"/>
+            <Label Grid.Row="0"
+                   HorizontalAlignment="Left"
+                     VerticalAlignment="Bottom"
+                   Width="15"                   
+                   Margin="91, 1, 1, 5"
+                   Content="x"/>
+            <TextBox Name="renderHeight"
+                     Grid.Row="0"
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Bottom"
+                     Text="1080"
+                     Margin="112, 1, 1, 5"
+                     Width="60"/>
+            <Button  Name="renderButton"
+                     Grid.Row="0"
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Bottom"
+                     Content="Рендер"
+                     Margin="183, 1, 1, 5"
+                     Width="80"
+                     Click="RenderClick"/>
+        </Grid>
+        <Grid Grid.Row="1"
+              ColumnDefinitions="*, *">
+            <uc:ModelsPanel Name="models"
+                            Margin="5"
+                            Grid.Column="0"
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Stretch"/>
+            <uc:LightsPanel Name="lights"
+                            Margin="5"
+                            Grid.Column="1"
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Stretch"/>
+        </Grid>
+    </Grid>
+</Window>

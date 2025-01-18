@@ -1,0 +1,8 @@
+{
+    "MeshFile": "data/sphere.obj",
+    "Color": [200, 200, 200],
+    "Reflectivity": 0.05,
+    "Refractivity": 1.4,
+    "Transparency": 0.9,
+    "Absorption": 0.95
+}

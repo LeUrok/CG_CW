@@ -1,0 +1,5 @@
+newmtl sphere_mat
+Ns 300
+Ka 0.8 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0.8 0.8 0.8

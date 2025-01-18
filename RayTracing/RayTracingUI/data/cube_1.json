@@ -1,0 +1,8 @@
+{
+    "MeshFile": "data/cube.obj",    
+    "TextureFile": "data/wooden_box.jpg",
+    "Reflectivity": 0.1,
+    "Absorption": 0,
+    "Refractivity": 1.3,
+    "Transparency": 0
+}
